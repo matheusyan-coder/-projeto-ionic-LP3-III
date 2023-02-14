@@ -14,4 +14,16 @@ export class HomePage {
 somar(){
   this.res=parseFloat(this.n1)+parseFloat(this.n2);
  }
+
+ subtrair(){
+  this.res=parseFloat(this.n1)-parseFloat(this.n2);
+ }
+
+ multiplicar(){
+  this.res=parseFloat(this.n1)*parseFloat(this.n2);
+ }
+
+ dividir(){
+  this.res=parseFloat(this.n1)/parseFloat(this.n2);
+ }
 }
